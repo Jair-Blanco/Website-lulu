@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Título de página -->
+        <title>SHORTS 2 | Moda </title>
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/logo.png">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!-- Componente Botón WhatsApp flotante -->
+        <aside id="boton-wp">
+            <a href="https://api.whatsapp.com/send?phone=+57 301 6578480" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Menú Responsive -->
+        <aside id="menu-moviles">
+            <a href="#" id="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar-menu">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="bolsos.html">Shorts</a>
+                <a href="vestidos.html">Faldas</a>
+                
+            </nav>
+        </aside>
+
+        <!-- Componente Header con Logo al centro -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/logo1.png">
+                    </a>
+                </figure>
+            </article>
+        </header>
+
+        <main>
+            <section id="banner-superior">
+                <article>
+                    <h1>SHORTS 2</h1>
+                </article>
+            </section>
+            <br>
+            <br>
+            <hr>
+            <section id="ficha-producto">
+                <article>
+                    <figure class="bolso2"></figure>
+
+                    <div id="info-producto">
+                        <h2>Shorts 2</h2>
+                        <p>Shorts de jean, azul oscuro
+                        con un bonito diseño y simplista</p>
+                        <h5>$ 45.000</h5>
+                        <a href="#" target="_blank">Comprar</a>
+                    </div>
+                </article>
+            </section>
+            <hr>
+            <section id="categorias">
+                <article>
+                  <a href="bolsos.html" class="caja1">
+                    <h3>Shorts</h3>
+                    <div class="capa-oscura1"></div>
+                  </a>
+                  <a href="vestidos.html" class="caja2">
+                    <h3>Faldas</h3>
+                    <div class="capa-oscura2"></div>
+                  </a>
+                 
+                </article>
+            </section>
+        </main>
+
+        <!-- Componente Footer de 1 Columna -->
+        <footer>
+            <div id="ancla-footer"></div>
+            <article>
+                <div id="superior-footer">
+                    <div class="cajas-footer">
+                        <h6>Síguenos</h6>
+
+                        <!-- Componente Botones Redes Sociales -->
+                        <nav id="links-redes">
+                            <a href="https://twitter.com/?lang=es" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://l.wl.co/l?u=https%3A%2F%2Fwww.instagram.com%2Flulustorebaq%3Fr%3Dnametag" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://co.linkedin.com/" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div id="inferior-footer">
+                    <p>&copy; 2021 <strong>Codefest</strong>&trade;. All rights reserved.</p>
+                </div>
+            </article>
+        </footer>
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
